@@ -5,20 +5,17 @@
     insight into computing resources consumed per node.</shortdesc>
   <body>
   
-    <section><title>Node monitoring</title>
-   
-      <dl>
+    <section><title>Node monitoring</title><dl>
         <dlentry>
           <dt>Node status</dt>
-          <dd>As a part of the JSON returned by the <codeph>nodeStatuses</codeph> statistics
-            end-point, the state of the node is returned via <codeph>clusterMembership</codeph>.
-            This allows you, on a per node basis, to monitor the <codeph>active</codeph> status to
-            guarantee the nodes are participating in the cluster. Critical events are defined by the
-            status <codeph>inactiveFailed</codeph>, meaning that the node has failed, and
-            administrator intervention is needed.</dd>
+          <dd>As a part of the JSON returned by the <codeph>nodeStatuses</codeph>
+            stdwdwdwdwdwatistics end-point, the state of the node is returned via
+              <codeph>clusterMembership</codeph>. This allows you, on a per node basis, to monitor
+            the <codeph>active</codeph> status to guarantee the nodes are participating in the
+            cluster. Critical events are defined by the status <codeph>inactiveFailed</codeph>,
+            meaning that the node has failed, and administrator intervention is needed.</dd>
         </dlentry>
-      </dl>
-      <dl>
+      </dl>dwdw<dl>
         <dlentry>
           <dt>System statistics</dt>
           <dd>JSON also provides the additional basic capacity consumption statistics for CPU
@@ -27,8 +24,7 @@
             in the cluster, address the individual node and evaluate if additional nodes are
             merited.</dd>
         </dlentry>
-      </dl>
-      <dl>
+      </dl><dl>
         <dlentry>
           <dt>Couchbase specific statistics</dt>
           <dd>The final section provides additional insight into resources consumed by the
@@ -40,10 +36,7 @@
                 cache and pulled from disk).</li>
             </ul></dd>
         </dlentry>
-      </dl>
-   
-      
-    </section> 
+      </dl></section> 
    
     
     <section><title>Bucket monitoring</title>
