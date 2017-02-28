@@ -67,7 +67,7 @@
         <li><b>Keys</b> 
           <p>Each value (binary or JSON) is identified by a unique key. The key is typically a surrogate key generated using a counter or a UUID generator. Keys are immutable. Thus, if you use composite or compound keys, ensure that you use attributes that don’t change over time. </p></li>
         <li><b>Values</b><ul>
-          <li><b>Binary values</b>: Binary values can be used for high performance access to compact data through keys. Encrypted secrets, IoT instrument measurements, proplarity session states, or other not-human-readable data are typical cases for binary data. However, using binary values limits the functionality your application can take advantage of, ruling out indexing and querying in Couchbase Server as binary values have a proprietary representation.
+          <li><b>Binary values</b>: Binary values can be used for high performance access to compact data through keys. Encrypted secrets, IoT instrument measurements, proprietary session states, or other not-human-readable data are typical cases for binary data. However, using binary values limits the functionality your application can take advantage of, ruling out indexing and querying in Couchbase Server as binary values have a proprietary representation.
           </li>
           <li><b>JSON values</b>: JSON provides rich representation for entities. Couchbase Server
                     can parse, index and query JSON values. JSON provide a name and a value for each
